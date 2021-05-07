@@ -20,6 +20,7 @@
 		B51411B42642C19B002CA72D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51411B22642C19B002CA72D /* LoginViewController.xib */; };
 		B51411B62642C2A3002CA72D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51411B52642C2A3002CA72D /* LoginViewModel.swift */; };
 		B51411B82642C506002CA72D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51411B72642C506002CA72D /* UserInfo.swift */; };
+		B548C82B264534B4006F66AA /* CombineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548C82A264534B4006F66AA /* CombineController.swift */; };
 		B54CBFC926258E30006212BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54CBFC826258E30006212BD /* AppDelegate.swift */; };
 		B54CBFCB26258E30006212BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54CBFCA26258E30006212BD /* SceneDelegate.swift */; };
 		B54CBFCD26258E30006212BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54CBFCC26258E30006212BD /* ViewController.swift */; };
@@ -57,6 +58,7 @@
 		B51411B22642C19B002CA72D /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		B51411B52642C2A3002CA72D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		B51411B72642C506002CA72D /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		B548C82A264534B4006F66AA /* CombineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineController.swift; sourceTree = "<group>"; };
 		B54CBFC526258E30006212BD /* RXSwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54CBFC826258E30006212BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B54CBFCA26258E30006212BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,14 @@
 			path = LoginDemo;
 			sourceTree = "<group>";
 		};
+		B548C82926453483006F66AA /* 组合 */ = {
+			isa = PBXGroup;
+			children = (
+				B548C82A264534B4006F66AA /* CombineController.swift */,
+			);
+			path = "组合";
+			sourceTree = "<group>";
+		};
 		B54CBFBC26258E30006212BD = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +170,7 @@
 		B54CBFC726258E30006212BD /* RXSwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B548C82926453483006F66AA /* 组合 */,
 				B514119B26424866002CA72D /* LoginDemo */,
 				B514119026418B7F002CA72D /* 映射 */,
 				B514118B26417903002CA72D /* Subject */,
@@ -377,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51411B32642C19B002CA72D /* LoginViewController.swift in Sources */,
+				B548C82B264534B4006F66AA /* CombineController.swift in Sources */,
 				B5141195264235EA002CA72D /* TableController.swift in Sources */,
 				B514119826423667002CA72D /* TableViewModel.swift in Sources */,
 				B5B40C6126413C3C00B0B30A /* UILabelController.swift in Sources */,

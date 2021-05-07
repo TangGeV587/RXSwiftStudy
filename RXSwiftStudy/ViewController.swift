@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     let bag = DisposeBag()
     let dataSource = Observable.just([
-        "UILabel","UIButton","UITextField","Timer","KVO","Notification","Observable","Subject","Map","Table","LoginView"
+        "UILabel","UIButton","UITextField","Timer","KVO","Notification","Observable","Subject","Map","Table","LoginView","Combine"
         ])
     
     override func viewDidLoad() {
