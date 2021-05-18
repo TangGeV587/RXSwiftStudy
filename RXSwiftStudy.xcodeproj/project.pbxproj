@@ -21,6 +21,10 @@
 		B51411B62642C2A3002CA72D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51411B52642C2A3002CA72D /* LoginViewModel.swift */; };
 		B51411B82642C506002CA72D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51411B72642C506002CA72D /* UserInfo.swift */; };
 		B548C82B264534B4006F66AA /* CombineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548C82A264534B4006F66AA /* CombineController.swift */; };
+		B548C83B2648D8B1006F66AA /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548C8392648D8B1006F66AA /* SectionTableViewController.swift */; };
+		B548C83C2648D8B1006F66AA /* SectionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B548C83A2648D8B1006F66AA /* SectionTableViewController.xib */; };
+		B548C83F2653AC03006F66AA /* CustomCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548C83D2653AC03006F66AA /* CustomCellViewController.swift */; };
+		B548C8402653AC03006F66AA /* CustomCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B548C83E2653AC03006F66AA /* CustomCellViewController.xib */; };
 		B54CBFC926258E30006212BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54CBFC826258E30006212BD /* AppDelegate.swift */; };
 		B54CBFCB26258E30006212BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54CBFCA26258E30006212BD /* SceneDelegate.swift */; };
 		B54CBFCD26258E30006212BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54CBFCC26258E30006212BD /* ViewController.swift */; };
@@ -59,6 +63,10 @@
 		B51411B52642C2A3002CA72D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		B51411B72642C506002CA72D /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		B548C82A264534B4006F66AA /* CombineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineController.swift; sourceTree = "<group>"; };
+		B548C8392648D8B1006F66AA /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
+		B548C83A2648D8B1006F66AA /* SectionTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionTableViewController.xib; sourceTree = "<group>"; };
+		B548C83D2653AC03006F66AA /* CustomCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellViewController.swift; sourceTree = "<group>"; };
+		B548C83E2653AC03006F66AA /* CustomCellViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellViewController.xib; sourceTree = "<group>"; };
 		B54CBFC526258E30006212BD /* RXSwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54CBFC826258E30006212BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B54CBFCA26258E30006212BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -261,6 +269,10 @@
 				B5141194264235EA002CA72D /* TableController.xib */,
 				B514119726423667002CA72D /* TableViewModel.swift */,
 				B514119926423673002CA72D /* TableModel.swift */,
+				B548C8392648D8B1006F66AA /* SectionTableViewController.swift */,
+				B548C83A2648D8B1006F66AA /* SectionTableViewController.xib */,
+				B548C83D2653AC03006F66AA /* CustomCellViewController.swift */,
+				B548C83E2653AC03006F66AA /* CustomCellViewController.xib */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -328,9 +340,11 @@
 				B5B40C6826413D1F00B0B30A /* UIButtonController.xib in Resources */,
 				B51411B42642C19B002CA72D /* LoginViewController.xib in Resources */,
 				B5B40C6226413C3C00B0B30A /* UILabelController.xib in Resources */,
+				B548C8402653AC03006F66AA /* CustomCellViewController.xib in Resources */,
 				B54CBFD526258E32006212BD /* LaunchScreen.storyboard in Resources */,
 				B5141196264235EA002CA72D /* TableController.xib in Resources */,
 				B514118F26417920002CA72D /* SubjectController.xib in Resources */,
+				B548C83C2648D8B1006F66AA /* SectionTableViewController.xib in Resources */,
 				B54CBFD226258E32006212BD /* Assets.xcassets in Resources */,
 				B54CBFD026258E30006212BD /* Main.storyboard in Resources */,
 				B5B40C802641456B00B0B30A /* NotificationController.xib in Resources */,
@@ -393,6 +407,7 @@
 				B514119826423667002CA72D /* TableViewModel.swift in Sources */,
 				B5B40C6126413C3C00B0B30A /* UILabelController.swift in Sources */,
 				B514119D26424887002CA72D /* SimpleValidationViewController.swift in Sources */,
+				B548C83F2653AC03006F66AA /* CustomCellViewController.swift in Sources */,
 				B514119226418BA2002CA72D /* MapController.swift in Sources */,
 				B54CBFCD26258E30006212BD /* ViewController.swift in Sources */,
 				B5B40C842641494B00B0B30A /* ObservableController.swift in Sources */,
@@ -401,6 +416,7 @@
 				B5B40C7A2641409B00B0B30A /* KVOController.swift in Sources */,
 				B514118E26417920002CA72D /* SubjectController.swift in Sources */,
 				B514119F26427D37002CA72D /* SimpleValidationViewModel.swift in Sources */,
+				B548C83B2648D8B1006F66AA /* SectionTableViewController.swift in Sources */,
 				B5B40C7F2641456B00B0B30A /* NotificationController.swift in Sources */,
 				B5B40C6726413D1F00B0B30A /* UIButtonController.swift in Sources */,
 				B5B40C6D26413DD500B0B30A /* UITextFieldController.swift in Sources */,

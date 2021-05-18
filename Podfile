@@ -1,5 +1,5 @@
 # source 'https://github.com/CocoaPods/Specs.git'
-source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+#source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 # platform :ios, '10.0'
 
 target 'RXSwiftStudy' do
@@ -8,6 +8,6 @@ target 'RXSwiftStudy' do
 
  pod 'RxSwift'
  pod 'RxCocoa'
-
+ pod 'RxDataSources'
 
 end
